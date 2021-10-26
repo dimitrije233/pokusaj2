@@ -1,0 +1,125 @@
+html, body{
+     background-image: url("zvezda.jpg");
+    font-weight:bold;
+
+    margin:0; 
+    scroll-behavior: smooth;
+}
+nav{
+    background-color:rgba(255,255,255,0.7); 
+    padding:5px 0px; 
+    position:absolute; 
+    width:100%;
+}
+ul{
+    float:right; 
+    text-align:center; 
+}
+li{
+    display:inline; 
+    font-size:20px; 
+    font-weight:bold; 
+    letter-spacing:2px; 
+    padding:0px 20px; 
+    color:white; 
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.main{
+    width:80%; 
+    margin-left:auto;
+    margin-right:auto;
+    padding:2% 0;
+.sekcija{
+    background-image: url("zvezda.jpg");
+    padding:1% 5%; 
+    border-radius:10px;     
+    margin:10px 0px; 
+    border:1px solid gray; 
+    text-align:justify; 
+    line-height:30px; 
+}
+span{
+    font-weight:bold; 
+    font-style:italic; 
+    color:red; 
+}
+#linija{
+    height:2px; 
+    background-color:black; 
+    width:20%; 
+    margin-left:0px; 
+}
+.zaposleni-wrap{ 
+    text-align:center;
+}
+.zaposleni{
+    display:inline-block;
+    width:30%;
+    background:lightgray; 
+    padding:10px; 
+}
+.slika{
+    width:400px; 
+    height:400px;
+    
+}
+footer{
+    background-color:black; 
+    padding:5px 0px; 
+    text-align:center; 
+    font-weight:bold;
+    color:white; 
+    letter-spacing:2px; 
+}
+.header{
+    background:url(img/header.jpeg) center fixed; 
+    background-size:100% 100%; 
+    padding:200px 100px;
+    text-align:center;
+}
+.wrap{
+    display:block; 
+    margin-left:auto;   
+    margin-right:auto;  
+    padding:50px;
+    width:50%;
+    background-color:rgba(255,255,255,0.7); 
+    margin-bottom:50px;
+}
+hr{ 
+    width:30%;
+    height:3px;
+    background-color:red;
+    border:none;
+}
+.button{ 
+    color:white;
+    letter-spacing:2px;
+    font-weight:bold;
+    background-color:red;
+    padding:15px 30px;
+}
+.button:hover{ 
+    padding:20px 35px;
+    background-color:rgba(255,0,0,.3);
+}
+.sek2{
+    background:url(img/back.jpeg) center fixed;
+    background-size:100% 100%;
+}
+.btt{ 
+    color:white;
+    background-color:red;
+    padding:10px 25px;
+    margin-right:20px;
+    float:right;
+    font-weight:100; 
+
+}*/
+.btt:hover{ 
+    transition:0.5s ease;
+    background-color:rgba(255,0,0,.3);
+}
